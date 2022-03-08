@@ -7,7 +7,7 @@ namespace Netch.Models.Server.Shadowsocks
         public static readonly List<string> Methods = new List<string>()
         {
             "bf-cfb",
-            "rc4-md5",
+            "none",
             "aes-128-cfb",
             "aes-192-cfb",
             "aes-256-cfb",
